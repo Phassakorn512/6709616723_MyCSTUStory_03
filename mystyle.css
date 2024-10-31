@@ -156,3 +156,15 @@ footer p {
     margin-bottom: 20px;
     padding: 20px;
 }
+
+.header {
+    display: grid;
+  }
+
+.footer {
+    display: grid;
+}
+
+.nav {
+    display: grid;
+}
