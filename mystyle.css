@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #475ae9;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #768e8e;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    width: 17%;
+    padding-top: 30px;
+    height: 100vh;
+    position:sticky;
+    top:0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 30px 15px;
+    display: block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    float:right;
+    width:72%;
+}
+
+/* Info Section Styles */
+.info-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+/* Clearfix for Floating Elements */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* My Section Styles */
+.my-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.my-section ol {
+    padding-left: 20px;
+}
+
+/* Text Colors */
+.blue-text {
+    color: #007bff;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.green-text {
+    color: #28a745;
+}
+
+.orange-text {
+    color: #ff5733;
+}
+
+/* Center Text in My Contract Section */
+.text-center {
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #475ae9;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    margin-top: 0px;
+}
+
+footer p {
+    margin: 0;  
+}
+
+.info-section2{
+    margin-bottom: 0px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.video{
+    align-content: center;
+}
+
+
+.img{
+    object-position: center;
+    float:both
+}
+
+.img{
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
